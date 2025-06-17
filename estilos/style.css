@@ -36,6 +36,7 @@ section#telefone {
     width: 450px;
     background: url('../imagens/celular2.png')no-repeat;
     background-size: contain;
+     background-attachment: fixed;
 }
 
 iframe#tela {
