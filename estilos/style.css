@@ -8,6 +8,8 @@
 }
 
 html, body {
+    min-width: 320px;
+    max-width: 1000vw;
     height: 100vh;
     width: 100vw;
     background-color: black;
@@ -47,12 +49,13 @@ iframe#tela {
         background-attachment: fixed;
 }
 section#redes-sociais {
+    text-align: left;
      padding: 10px;
 }
 section#redes-sociais img{
-    position:auto;
+    position: relative;
     width: 50px;
-    margin: 0.9px;
+    margin: 3px;
     border-radius: 34%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
    transition: transform 0.3s, box-shadow 0.3s;
