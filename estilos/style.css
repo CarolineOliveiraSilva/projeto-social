@@ -30,13 +30,9 @@ section#telefone {
     position: absolute;
     top: 68%;
     left: 50%;
-    min-width: 600px;
-    
     transform: translate(-50%, -50%);
-    height: 90vh;
-    max-height:  708px;
-    width: 90vw;
-    max-width: 450px;
+    height:  708px;
+    width: 450px;
     background: url('../imagens/celular2.png')no-repeat left center;
      background-attachment: fixed;
 }
