@@ -15,7 +15,7 @@ html, body {
 body{
     background: url('../imagens/fundo1.jpg');
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
    overflow: hidden;
 
 }
@@ -28,7 +28,7 @@ main{
 
 section#telefone {
     position: absolute;
-    top: 68%;
+    top: 67%;
     left: 50%;
     transform: translate(-50%, -50%);
     height:  708px;
@@ -47,14 +47,14 @@ iframe#tela {
         background-attachment: fixed;
 }
 section#redes-sociais {
-    text-align: right;
-     padding: 10px;
+    text-align: center;
+     padding: 20px;
 }
 section#redes-sociais img{
-    position:auto;
+    position:relative;
     width: 50px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 100%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
    transition: transform 0.3s, box-shadow 0.3s;
    
